@@ -1,0 +1,5 @@
+14.0
+3
+1       SQLCHAR             0       100       "\t"    1     UserId	""
+2       SQLCHAR             0       100 "\t"    2     SongId	""
+3      SQLBIGINT	0       100 "\n"    3    ListenCount	""

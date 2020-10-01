@@ -1,0 +1,9 @@
+14.0
+7
+1       SQLCHAR             0       5       ": <"    1     Error	""
+2       SQLCHAR             0       100 " "    2     SongId	""
+3       SQLCHAR             0       100 "> "    3     TrackId	""
+4       SQLNCHAR             0       500 "  -  "    4     ActualArtist	""
+5       SQLNCHAR             0       500 "  !=  "    5     ActualSong	""
+6       SQLNCHAR             0       500 "  -  "    6     OriginalArtist	""
+7       SQLNCHAR             0       500 "\n"    7     OriginalSong	""

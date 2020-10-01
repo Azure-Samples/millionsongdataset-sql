@@ -1,0 +1,6 @@
+14.0
+4
+1       SQLCHAR             0       100       "<SEP>"    1     TrackId	""
+2       SQLCHAR             0       100 "<SEP>"    2     SongId	""
+3       SQLNCHAR             0       500 "<SEP>"    3     ArtistName	""
+4       SQLNCHAR             0       500 "\n"    4     SongTitle	""
