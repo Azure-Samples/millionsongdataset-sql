@@ -1,0 +1,21 @@
+<?xml version="1.0"?>  
+<BCPFORMAT xmlns="http://schemas.microsoft.com/sqlserver/2004/bulkload/format" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  
+ <RECORD>  
+  <FIELD ID="1" xsi:type="CharTerm" TERMINATOR=": &lt;" MAX_LENGTH="5"/>  
+  <FIELD ID="2" xsi:type="CharTerm" TERMINATOR=" " MAX_LENGTH="100"/>  
+  <FIELD ID="3" xsi:type="CharTerm" TERMINATOR="&gt; " MAX_LENGTH="100"/>  
+  <FIELD ID="4" xsi:type="CharTerm" TERMINATOR="  -  " MAX_LENGTH="500"/>  
+  <FIELD ID="5" xsi:type="CharTerm" TERMINATOR="  !=  " MAX_LENGTH="500"/>  
+  <FIELD ID="6" xsi:type="CharTerm" TERMINATOR="  -  " MAX_LENGTH="500"/>  
+  <FIELD ID="7" xsi:type="CharTerm" TERMINATOR="\n" MAX_LENGTH="500"/>  
+ </RECORD>  
+ <ROW>  
+  <COLUMN SOURCE="1" NAME="Error" xsi:type="SQLVARYCHAR"/>
+  <COLUMN SOURCE="2" NAME="SongId" xsi:type="SQLVARYCHAR"/>
+  <COLUMN SOURCE="3" NAME="TrackId" xsi:type="SQLVARYCHAR"/>
+  <COLUMN SOURCE="4" NAME="ActualArtist" xsi:type="SQLNVARCHAR"/>
+  <COLUMN SOURCE="5" NAME="ActualSong" xsi:type="SQLNVARCHAR"/>
+  <COLUMN SOURCE="6" NAME="OriginalArtist" xsi:type="SQLNVARCHAR"/>
+  <COLUMN SOURCE="7" NAME="OriginalSong" xsi:type="SQLNVARCHAR"/>
+ </ROW>  
+</BCPFORMAT>  

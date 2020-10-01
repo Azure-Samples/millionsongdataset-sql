@@ -1,4 +1,4 @@
-# Contributing to [project-title]
+# Contributing to this project
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
@@ -51,12 +51,12 @@ chances of your issue being dealt with quickly:
 * **Suggest a Fix** - if you can't fix the bug yourself, perhaps you can point to what might be
   causing the problem (line of code or commit)
 
-You can file new issues by providing the above information at the corresponding repository's issues link: https://github.com/[organization-name]/[repository-name]/issues/new].
+You can file new issues by providing the above information at the corresponding repository's [issues](https://github.com/Azure-Samples/millionsongdataset-sql/issues/new).
 
 ### <a name="submit-pr"></a> Submitting a Pull Request (PR)
 Before you submit your Pull Request (PR) consider the following guidelines:
 
-* Search the repository (https://github.com/[organization-name]/[repository-name]/pulls) for an open or closed PR
+* Search [the repository](https://github.com/Azure-Samples/millionsongdataset-sql/pulls) for an open or closed PR
   that relates to your submission. You don't want to duplicate effort.
 
 * Make your changes in a new git fork:
@@ -66,11 +66,12 @@ Before you submit your Pull Request (PR) consider the following guidelines:
 * In GitHub, create a pull request
 * If we suggest changes then:
   * Make the required updates.
-  * Rebase your fork and force push to your GitHub repository (this will update your Pull Request):
+  * Merge your fork and force push to your GitHub repository (this will update your Pull Request):
 
     ```shell
-    git rebase master -i
-    git push -f
+    git fetch upstream
+    git merge main
+    git push
     ```
 
 That's it! Thank you for your contribution!
